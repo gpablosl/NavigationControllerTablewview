@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3D2851DB28DCB16D00DC51AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851DA28DCB16D00DC51AA /* AppDelegate.swift */; };
-		3D2851DD28DCB16D00DC51AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851DC28DCB16D00DC51AA /* ViewController.swift */; };
 		3D2851E028DCB16D00DC51AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2851DE28DCB16D00DC51AA /* Main.storyboard */; };
 		3D2851E228DCB16F00DC51AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2851E128DCB16F00DC51AA /* Assets.xcassets */; };
 		3D2851E528DCB16F00DC51AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2851E328DCB16F00DC51AA /* LaunchScreen.storyboard */; };
+		3D2851ED28DCB1D900DC51AA /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851EC28DCB1D900DC51AA /* Alumno.swift */; };
+		3D2851EF28DCB35300DC51AA /* CeldaAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851EE28DCB35300DC51AA /* CeldaAlumnoController.swift */; };
+		3D2851F128DCB46F00DC51AA /* AlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2851F028DCB46F00DC51AA /* AlumnoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D2851D728DCB16D00DC51AA /* EjNavigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EjNavigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2851DA28DCB16D00DC51AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D2851DC28DCB16D00DC51AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D2851DF28DCB16D00DC51AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D2851E128DCB16F00DC51AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D2851E428DCB16F00DC51AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D2851E628DCB16F00DC51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2851EC28DCB1D900DC51AA /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		3D2851EE28DCB35300DC51AA /* CeldaAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumnoController.swift; sourceTree = "<group>"; };
+		3D2851F028DCB46F00DC51AA /* AlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				3D2851DA28DCB16D00DC51AA /* AppDelegate.swift */,
-				3D2851DC28DCB16D00DC51AA /* ViewController.swift */,
 				3D2851DE28DCB16D00DC51AA /* Main.storyboard */,
 				3D2851E128DCB16F00DC51AA /* Assets.xcassets */,
 				3D2851E328DCB16F00DC51AA /* LaunchScreen.storyboard */,
 				3D2851E628DCB16F00DC51AA /* Info.plist */,
+				3D2851EC28DCB1D900DC51AA /* Alumno.swift */,
+				3D2851EE28DCB35300DC51AA /* CeldaAlumnoController.swift */,
+				3D2851F028DCB46F00DC51AA /* AlumnoController.swift */,
 			);
 			path = "EjNavigation Controller";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2851DD28DCB16D00DC51AA /* ViewController.swift in Sources */,
+				3D2851EF28DCB35300DC51AA /* CeldaAlumnoController.swift in Sources */,
+				3D2851F128DCB46F00DC51AA /* AlumnoController.swift in Sources */,
+				3D2851ED28DCB1D900DC51AA /* Alumno.swift in Sources */,
 				3D2851DB28DCB16D00DC51AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
