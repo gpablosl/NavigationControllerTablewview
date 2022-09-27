@@ -14,4 +14,5 @@ class CeldaAlumnoController: UITableViewCell {
     @IBOutlet weak var lblMatricula: UILabel!
     
     @IBOutlet weak var lblCarrera: UILabel!
+    
 }
